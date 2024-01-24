@@ -1,0 +1,92 @@
+html{
+box-sizing: border-box;
+height: 100%;
+
+}
+
+body{
+
+align-items: center;
+display: flex;
+font-family: 'dosis',sans-serif;
+font-display: swap;
+height: inherit;
+justify-content: center;
+background-image: linear-gradient(180deg, #cbffdc 0, #baffdc 16.67%, #abffda 33.33%, #9df2d5 50%, #92e3cf 66.67%, #89d5c9 83.33%, #83c9c4 100%);
+font-size: 20px;
+        
+    
+}
+
+.botao{
+background-color: black;
+color: white;
+padding: 10px 90px;
+cursor: pointer;
+font-size: 15px;
+transition: all .3s ease;
+border-radius: 16px;
+margin: 0 40px;
+
+}
+
+.botao:hover{
+background-color:white ;
+color: gray;
+}
+
+.Começo{
+    
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.034);
+    padding: 20px 35px;  
+
+}
+
+.registrar{
+   cursor: pointer; 
+}
+
+.registrar:hover{
+    color: gray;
+}
+
+.Esqueceu_senha{
+cursor: pointer;
+
+}
+
+.Esqueceu_senha:hover{
+    color: gray;
+}
+
+.email{
+   font-size: 16px;
+    border-radius: 7px;
+}
+
+.senha{
+    font-size: 16px;
+    border-radius: 7px;
+
+}
+
+.bem_vindo{
+    text-align: center;
+}
+
+.Email{
+    font-size: 17px;
+}
+
+.Senha{
+    font-size: 17px;
+}
+
